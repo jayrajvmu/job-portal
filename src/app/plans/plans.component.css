@@ -1,0 +1,48 @@
+.register-content-row{
+    height: 852px;
+}
+.add-pan-btn{
+    display: flex;
+    justify-content: space-around
+}
+
+.custom-card{
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+
+.card-title-color{
+    font-size: 16px;
+}
+
+.card-content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-content-data{
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+    text-align:left;
+}
+
+.card-content-heading{
+    max-width: 481px;
+}
+
+.card-body{
+    margin-bottom: 10px;
+}
+
+.card-content-data div{
+color: #0A2647;
+font-weight: 500;
+font-size: 12px;
+}
+.card-content-data .rating{
+
+    font-size: 14px;
+    }

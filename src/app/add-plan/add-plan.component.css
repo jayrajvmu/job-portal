@@ -1,0 +1,63 @@
+.register-content-row{
+    height: 852px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    max-width: 650px;
+    margin: auto;
+
+}
+.card{
+    min-width: 200px;
+}
+.card-content-heading{
+    display: flex !important;
+    justify-content: center !important;
+}
+.card-content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-content-data{
+    display: flex;
+    min-width: 165px;
+    justify-content: space-between;
+}
+
+
+.card-body{
+    margin-bottom: 10px;
+}
+
+.card-content-data div{
+color: #0A2647;
+font-weight: 500;
+font-size: 12px;
+}
+.card-content-data .rating{
+
+    font-size: 14px;
+    }
+
+    .plan-amount{
+display: flex;
+justify-content: center;
+        font-size: 32px;
+    }
+
+    .amount-offer{
+        font-size: 12px;
+        /* display: flex; */
+        align-items: center;
+        flex-direction: column;
+        display: inline-flex;
+        justify-content: space-evenly;
+    
+    }
+
+    .abas{
+        position: absolute;
+    }

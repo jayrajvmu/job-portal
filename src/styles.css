@@ -1,1 +1,164 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+
+}
+.hero-image {
+    width: 100%;
+    border-radius: 5px;
+}
+.register {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.register-content-row {
+    padding-top: 10px;
+    height: 878px;
+}
+.register-content {
+    background-color: #E7E9ED;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.register-content h3 {
+    font-weight: 700;
+    color: #FD841F;
+    text-align: center;
+}
+
+.register-content .row {
+    margin-top: 20px;
+}
+
+.register-content a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.ad-image img {
+    width: 100%;
+}
+
+
+.register-form {
+    max-width: 600px;
+    margin: auto;
+}
+.single-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.content-box{
+    width: 60%;
+}
+.single-row button{
+    color: #fff;
+}
+
+.btn-grey{
+    background-color:  #878787;
+}
+
+
+
+.btn-brand-blue{
+    background-color: #0A2647 !important;
+    color: #fff !important;
+}
+
+.single-row label{
+    font-weight: 500;
+    color:#0A2647;
+}
+
+.select-type{
+    color: #B4B4B4 !important;
+    appearance: auto;
+}
+
+.single-row input::placeholder{
+    color: #B4B4B4;
+}
+.single-row textarea::placeholder{
+    color: #B4B4B4;
+}
+
+.content-box{
+    display: flex;
+}
+
+.register-content-row{
+    height: 1176px;
+}
+
+.btn-custom{
+    width: 45%;
+}
+
+
+
+.btn-brand-grey{
+    background-color: #FFFFFF;
+    color: #0A2647 !important;
+}
+.douple-btn{
+    display: flex;
+    width: 80%;
+    margin:30px auto 0 auto;
+}
+
+.douple-btn button{
+    width: 80%;
+    font-weight: 500;
+}
+.douple-btn .content-box{
+    justify-content: space-evenly;
+}
+.douple-input-first{
+    margin-right: 5px;
+}
+.douple-input-second{
+    margin-left: 5px;
+}
+
+
+.or-line{
+    position: relative;
+}
+.or-line::after{
+
+        content: "";
+        display: block;
+        width: 40%;
+        height: 1px;
+        background:  #0A2647;
+top: 20px;
+right: 0px;
+        position: absolute;
+      
+}
+.or-line::before{
+
+    content: "";
+    display: block;
+    width: 40%;
+    height: 1px;
+    background:   #0A2647;
+top: 20px;
+
+
+    position: absolute;
+  
+}
+
+
+
+
