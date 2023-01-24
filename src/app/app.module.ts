@@ -13,6 +13,10 @@ import { CreateMailTemplateComponent } from './create-mail-template/create-mail-
 import { SendmailComponent } from './sendmail/sendmail.component';
 import { PlansComponent } from './plans/plans.component';
 import { AddPlanComponent } from './add-plan/add-plan.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { VerifyOtpComponent } from './verify-otp/verify-otp.component';
+import { NewPasswordComponent } from './new-password/new-password.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +31,10 @@ import { AddPlanComponent } from './add-plan/add-plan.component';
     SendmailComponent,
     PlansComponent,
     AddPlanComponent,
+    ForgotPasswordComponent,
+    VerifyOtpComponent,
+    NewPasswordComponent,
+    ChangePasswordComponent,
     
   ],
   imports: [
