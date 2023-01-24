@@ -28,9 +28,7 @@
 }
 
 
-.card-body{
-    margin-bottom: 10px;
-}
+
 
 .card-content-data div{
 color: #0A2647;
@@ -46,6 +44,8 @@ font-size: 12px;
 display: flex;
 justify-content: center;
         font-size: 32px;
+        max-width: 130px;
+        margin-top: 20px;
     }
 
     .amount-offer{
@@ -58,6 +58,27 @@ justify-content: center;
     
     }
 
-    .abas{
+    .plan-amount, .offer-amount{
+        position: relative;
+    }
+
+    .offer-abs{
         position: absolute;
+        top: -15px;
+        left: 100%;
+    }
+
+    .choose-btn-wrap{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .choose-btn-wrap button{
+       width: 90%;
+    }
+
+    .know-more{
+        text-align: right;
+        font-size: 12px;
+        margin-top: 5px;
     }
