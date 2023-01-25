@@ -203,3 +203,7 @@ top: 20px;
 .final-btn-wrap button{
     width: 50%;
 }
+
+.ad-image li{
+    list-style: none;
+}
