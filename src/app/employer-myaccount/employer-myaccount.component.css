@@ -1,3 +1,10 @@
+.register-content-row{
+    background-color:#E7E9ED ;
+    border-radius: 5px;
+}
+.register-content{
+    background-color: #fff;
+}
 .search-boxs{
     display: flex;
     justify-content: center;
@@ -16,6 +23,8 @@
 }
 
 .search-box-wrap{
+    padding: 10px 0;
+    margin-bottom: 20px;
     border-radius: 5px;
     background: linear-gradient(91.68deg, #FD841F 0.87%, #FD841F 0.88%, #FA831F 0.89%, #0D2747 99.92%, #0A2647 99.93%, #0A2647 99.93%);
 }
@@ -118,4 +127,19 @@
 
 .saved-job-icon{
     color: #0A2647 !important;
+}
+
+.company-logo{
+    width: 100px;
+}
+
+.about-company span{
+display: block;
+}
+
+.about-company-content{
+align-items: normal;
+}
+.content-box{
+    font-weight: 500;
 }
