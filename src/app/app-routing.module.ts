@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddPlanComponent } from './add-plan/add-plan.component';
+import { CanRegistrationComponent } from './can-registration/can-registration.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { CreateMailTemplateComponent } from './create-mail-template/create-mail-template.component';
 import { EmployerMyaccountComponent } from './employer-myaccount/employer-myaccount.component';
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path:"newpassword",component:NewPasswordComponent},
   {path:"changepassword",component:ChangePasswordComponent},
   {path:"myaccount",component:EmployerMyaccountComponent},
+  {path:"canregister",component:CanRegistrationComponent},
 ];
 
 @NgModule({

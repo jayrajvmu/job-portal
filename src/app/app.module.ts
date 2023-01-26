@@ -17,6 +17,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { VerifyOtpComponent } from './verify-otp/verify-otp.component';
 import { NewPasswordComponent } from './new-password/new-password.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { CanRegistrationComponent } from './can-registration/can-registration.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
     VerifyOtpComponent,
     NewPasswordComponent,
     ChangePasswordComponent,
+    CanRegistrationComponent,
     
   ],
   imports: [

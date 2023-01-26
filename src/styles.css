@@ -21,7 +21,10 @@ h3{
 
 .register-content-row {
     padding-top: 10px;
+}
+.height-register-content{
     height: 878px;
+
 }
 .register-content {
     background-color: #E7E9ED;
@@ -107,9 +110,7 @@ h3{
     display: flex;
 }
 
-.register-content-row{
-    height: 1176px;
-}
+
 
 .btn-custom{
     width: 45%;
@@ -186,13 +187,14 @@ top: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2px 10px;
+    padding: 6px 10px;
     border-radius: 5px;
+    font-size: 14px;
     
 }
 .sigin-button img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
  }
 
  
