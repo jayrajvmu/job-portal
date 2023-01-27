@@ -4,6 +4,7 @@
 .register-form{
     min-width: 58%;
     width: 540px;
+    padding-bottom: 10px;
 }
 .register-content-row{
     background-color: #E7E9ED;
@@ -110,4 +111,8 @@ align-items: center;
 .eduction-skills{
     margin: 10px 0;
     font-size: 24px;
+}
+
+.content-box{
+    justify-content: space-between;
 }
