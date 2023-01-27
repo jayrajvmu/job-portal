@@ -73,11 +73,7 @@
 
 }
 
-.icon-custom{
-    display: inline-block;
-    width: 50px;
-    text-align: center;
-}
+
 
 .icon-custom-recent{
     width: 40px;
@@ -93,6 +89,10 @@
     background-color: #FD841F;
     padding: 10px 0px;
     border: none !important;
+}
+
+.recent-search .sidebarmenu-heading i{
+    color: #000;
 }
 
 

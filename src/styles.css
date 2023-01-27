@@ -28,8 +28,8 @@ h3{
 }
 .register-content {
     background-color: #E7E9ED;
-    padding: 10px;
-    margin: 0 10px;
+    /* padding: 10px; */
+    margin: 0 10px 10px 10px;
     border-radius: 5px;
 }
 
@@ -90,6 +90,10 @@ h3{
 .btn-brand-trans{
     background-color:rgba(255, 255, 255, 0.2);
 }
+
+.btn-shadow{
+    box-shadow:  0px 2px 8px rgba(0, 0, 0, 0.25);
+ }
 .single-row label{
     font-weight: 500;
     color:#0A2647;
@@ -209,4 +213,11 @@ top: 20px;
 
 .ad-image li{
     list-style: none;
+}
+
+
+.icon-custom{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
 }

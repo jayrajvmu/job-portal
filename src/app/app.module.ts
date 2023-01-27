@@ -18,6 +18,8 @@ import { VerifyOtpComponent } from './verify-otp/verify-otp.component';
 import { NewPasswordComponent } from './new-password/new-password.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { CanRegistrationComponent } from './can-registration/can-registration.component';
+import { JobPostViewComponent } from './job-post-view/job-post-view.component';
+import { EmployerActionComponent } from './employer-action/employer-action.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import { CanRegistrationComponent } from './can-registration/can-registration.co
     NewPasswordComponent,
     ChangePasswordComponent,
     CanRegistrationComponent,
+    JobPostViewComponent,
+    EmployerActionComponent,
     
   ],
   imports: [

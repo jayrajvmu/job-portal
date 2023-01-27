@@ -4,8 +4,10 @@ import { AddPlanComponent } from './add-plan/add-plan.component';
 import { CanRegistrationComponent } from './can-registration/can-registration.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { CreateMailTemplateComponent } from './create-mail-template/create-mail-template.component';
+import { EmployerActionComponent } from './employer-action/employer-action.component';
 import { EmployerMyaccountComponent } from './employer-myaccount/employer-myaccount.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { JobPostViewComponent } from './job-post-view/job-post-view.component';
 import { JobpostComponent } from './jobpost/jobpost.component';
 import { LoginComponent } from './login/login.component';
 import { NewPasswordComponent } from './new-password/new-password.component';
@@ -27,6 +29,14 @@ const routes: Routes = [
   {path:"newpassword",component:NewPasswordComponent},
   {path:"changepassword",component:ChangePasswordComponent},
   {path:"myaccount",component:EmployerMyaccountComponent},
+  {path:"jobpostview",component:JobPostViewComponent},
+  {path:"employeraction",component:EmployerActionComponent},
+
+
+
+
+
+
   {path:"canregister",component:CanRegistrationComponent},
 ];
 
