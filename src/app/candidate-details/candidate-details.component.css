@@ -80,7 +80,9 @@ align-items: center;
 }
 .heading-icons{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+
 }
 
 .heading-main-content button{
@@ -90,6 +92,11 @@ align-items: center;
 .btn-padding{
    padding-top: 2px;
    padding-bottom: 2px;
+     background: transparent;
+  /*background-color: blue;*/
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .card-main-content{
@@ -117,4 +124,23 @@ align-items: center;
 
 .content-box{
     justify-content: space-between;
+}
+
+.send-drop{
+    background-color: #0A2647;
+}
+
+.heading-icons-alignment{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.heading-active{
+    text-align: center;
+}
+
+.drop-icon{
+    font-family: 'Lato', 'Font Awesome 5 Free';
+    font-weight: 900;
 }

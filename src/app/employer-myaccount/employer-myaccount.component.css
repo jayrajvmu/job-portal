@@ -143,3 +143,8 @@ align-items: normal;
 .content-box{
     font-weight: 500;
 }
+
+.right-sidebar{
+    background-color: #E7E9ED;
+    height: 100%;
+}

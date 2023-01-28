@@ -2,9 +2,11 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddPlanComponent } from './add-plan/add-plan.component';
 import { CanRegistrationComponent } from './can-registration/can-registration.component';
+import { CandidateDetailsComponent } from './candidate-details/candidate-details.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { CreateMailTemplateComponent } from './create-mail-template/create-mail-template.component';
 import { EmployerActionComponent } from './employer-action/employer-action.component';
+import { EmployerHomeComponent } from './employer-home/employer-home.component';
 import { EmployerMyaccountComponent } from './employer-myaccount/employer-myaccount.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { JobPostViewComponent } from './job-post-view/job-post-view.component';
@@ -31,6 +33,9 @@ const routes: Routes = [
   {path:"myaccount",component:EmployerMyaccountComponent},
   {path:"jobpostview",component:JobPostViewComponent},
   {path:"employeraction",component:EmployerActionComponent},
+  {path:"candidatedetails",component:CandidateDetailsComponent},
+  {path:"employerhome",component:EmployerHomeComponent},
+
 
 
 

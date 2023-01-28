@@ -20,6 +20,8 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
 import { CanRegistrationComponent } from './can-registration/can-registration.component';
 import { JobPostViewComponent } from './job-post-view/job-post-view.component';
 import { EmployerActionComponent } from './employer-action/employer-action.component';
+import { CandidateDetailsComponent } from './candidate-details/candidate-details.component';
+import { EmployerHomeComponent } from './employer-home/employer-home.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +43,8 @@ import { EmployerActionComponent } from './employer-action/employer-action.compo
     CanRegistrationComponent,
     JobPostViewComponent,
     EmployerActionComponent,
+    CandidateDetailsComponent,
+    EmployerHomeComponent,
     
   ],
   imports: [
