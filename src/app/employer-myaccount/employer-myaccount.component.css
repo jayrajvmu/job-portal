@@ -148,3 +148,6 @@ align-items: normal;
     background-color: #E7E9ED;
     height: 100%;
 }
+.sidebarmenu ul{
+    list-style: none;
+}

@@ -23,3 +23,12 @@
 padding-bottom: 20px;
     
 }
+
+.resume-content-type{
+    margin-left: 2%;
+    font-size: 12px;
+}
+
+.choose-file-wrap{
+    align-items: flex-end;
+}

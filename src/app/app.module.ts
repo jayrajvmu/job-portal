@@ -22,6 +22,13 @@ import { JobPostViewComponent } from './job-post-view/job-post-view.component';
 import { EmployerActionComponent } from './employer-action/employer-action.component';
 import { CandidateDetailsComponent } from './candidate-details/candidate-details.component';
 import { EmployerHomeComponent } from './employer-home/employer-home.component';
+import { EmployerLoginComponent } from './employer-login/employer-login.component';
+import { EditJobPostComponent } from './edit-job-post/edit-job-post.component';
+import { SendJobComponent } from './send-job/send-job.component';
+import { ForgotPassOtpComponent } from './forgot-pass-otp/forgot-pass-otp.component';
+import { CheckMailComponent } from './check-mail/check-mail.component';
+import { CanLoginComponent } from './can-login/can-login.component';
+import { CanUpdateProfileComponent } from './can-update-profile/can-update-profile.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +52,13 @@ import { EmployerHomeComponent } from './employer-home/employer-home.component';
     EmployerActionComponent,
     CandidateDetailsComponent,
     EmployerHomeComponent,
+    EmployerLoginComponent,
+    EditJobPostComponent,
+    SendJobComponent,
+    ForgotPassOtpComponent,
+    CheckMailComponent,
+    CanLoginComponent,
+    CanUpdateProfileComponent,
     
   ],
   imports: [

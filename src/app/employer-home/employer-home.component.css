@@ -7,6 +7,7 @@
     background-color: #82C3EC;
     border-top-left-radius: 5px;
 
+
     border-top-right-radius: 5px;
 }
 
@@ -21,8 +22,9 @@
     background-color: #E7E9ED;
 }
 
-
-
+.sidebarmenu ul{
+    list-style: none;
+}
 
 /* refine sidebar menu */
 
@@ -43,6 +45,11 @@
 
 .refine-sidebar{
     height: 100%;
+}
+
+.refine-sidebar ul{
+    list-style: none;
+
 }
 
 .sidebar-search-box{
@@ -67,7 +74,13 @@
     font-weight: 500;
 }
 
-
+.refine-result{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
 
 /* refine sidebar menu */
 

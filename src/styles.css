@@ -37,7 +37,7 @@ h3{
     font-weight: 700;
     color: #FD841F;
     text-align: center;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .register-content .row {
@@ -390,4 +390,11 @@ align-items: normal;
 
 .padding10{
     padding:10px
+}
+
+.resend-otp{
+    margin-top: 5px;
+    text-align: right;
+    font-size: 10px;
+    color: #0A2647;
 }
