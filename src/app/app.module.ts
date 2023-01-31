@@ -29,6 +29,12 @@ import { ForgotPassOtpComponent } from './forgot-pass-otp/forgot-pass-otp.compon
 import { CheckMailComponent } from './check-mail/check-mail.component';
 import { CanLoginComponent } from './can-login/can-login.component';
 import { CanUpdateProfileComponent } from './can-update-profile/can-update-profile.component';
+import { CanJobDetailsComponent } from './can-job-details/can-job-details.component';
+import { CanEmailVerifyComponent } from './can-email-verify/can-email-verify.component';
+import { CanMobileVerifyComponent } from './can-mobile-verify/can-mobile-verify.component';
+import { CanIntrestedComponent } from './can-intrested/can-intrested.component';
+import { CanHomeComponent } from './can-home/can-home.component';
+import { CanMyProfileComponent } from './can-my-profile/can-my-profile.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +65,12 @@ import { CanUpdateProfileComponent } from './can-update-profile/can-update-profi
     CheckMailComponent,
     CanLoginComponent,
     CanUpdateProfileComponent,
+    CanJobDetailsComponent,
+    CanEmailVerifyComponent,
+    CanMobileVerifyComponent,
+    CanIntrestedComponent,
+    CanHomeComponent,
+    CanMyProfileComponent,
     
   ],
   imports: [

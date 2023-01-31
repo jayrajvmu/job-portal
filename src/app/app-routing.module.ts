@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddPlanComponent } from './add-plan/add-plan.component';
+import { CanEmailVerifyComponent } from './can-email-verify/can-email-verify.component';
+import { CanHomeComponent } from './can-home/can-home.component';
+import { CanIntrestedComponent } from './can-intrested/can-intrested.component';
+import { CanJobDetailsComponent } from './can-job-details/can-job-details.component';
 import { CanLoginComponent } from './can-login/can-login.component';
+import { CanMobileVerifyComponent } from './can-mobile-verify/can-mobile-verify.component';
+import { CanMyProfileComponent } from './can-my-profile/can-my-profile.component';
 import { CanRegistrationComponent } from './can-registration/can-registration.component';
 import { CanUpdateProfileComponent } from './can-update-profile/can-update-profile.component';
 import { CandidateDetailsComponent } from './candidate-details/candidate-details.component';
@@ -56,7 +62,14 @@ const routes: Routes = [
   {path:"canlogin",component:CanLoginComponent},
   {path:"canregister",component:CanRegistrationComponent},
   {path:"canupdateprofile",component:CanUpdateProfileComponent},
+  {path:"canjobdetails",component:CanJobDetailsComponent},
+  {path:"canemailverify",component:CanEmailVerifyComponent},
+  {path:"canmobileverify",component:CanMobileVerifyComponent},
+  {path:"canintrested",component:CanIntrestedComponent},
+  {path:"canhome",component:CanHomeComponent},
+  {path:"canmyprofile",component:CanMyProfileComponent},
 
+  
 ];
 
 @NgModule({

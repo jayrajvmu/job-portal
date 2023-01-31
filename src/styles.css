@@ -241,7 +241,6 @@ top: 20px;
 .sidebarmenu li{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    margin: 10px 0px;
 }
 .sidebarmenu ul{
     padding: 0px 0px;
@@ -368,7 +367,6 @@ align-items: normal;
 
 .sidebarmenu{
     border-radius: 5px;
-    margin-top: 20px;
     background-color: #E7E9ED;
    
 
@@ -398,3 +396,15 @@ align-items: normal;
     font-size: 10px;
     color: #0A2647;
 }
+
+
+
+/* heading-side-btn */
+
+.add-pan-btn{
+    display: flex;
+    justify-content: space-around
+}
+
+
+/* heading-side-btn */
