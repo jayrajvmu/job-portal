@@ -35,6 +35,8 @@ import { CanMobileVerifyComponent } from './can-mobile-verify/can-mobile-verify.
 import { CanIntrestedComponent } from './can-intrested/can-intrested.component';
 import { CanHomeComponent } from './can-home/can-home.component';
 import { CanMyProfileComponent } from './can-my-profile/can-my-profile.component';
+import { CanRecentSearchComponent } from './can-recent-search/can-recent-search.component';
+import { EmployerRecentSearchComponent } from './employer-recent-search/employer-recent-search.component';
 
 @NgModule({
   declarations: [
@@ -71,6 +73,8 @@ import { CanMyProfileComponent } from './can-my-profile/can-my-profile.component
     CanIntrestedComponent,
     CanHomeComponent,
     CanMyProfileComponent,
+    CanRecentSearchComponent,
+    EmployerRecentSearchComponent,
     
   ],
   imports: [

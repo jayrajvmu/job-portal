@@ -408,3 +408,25 @@ align-items: normal;
 
 
 /* heading-side-btn */
+
+
+
+/* colors */
+
+.color-shortlisted{
+    color: #1877F2;
+
+}
+
+.color-viewed{
+    color:#34A853;
+
+}
+
+.color-applied{
+    color: #fff;
+}
+
+.color-rejected{
+    color: #FF0000;
+}

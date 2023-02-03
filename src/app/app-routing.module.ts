@@ -8,6 +8,7 @@ import { CanJobDetailsComponent } from './can-job-details/can-job-details.compon
 import { CanLoginComponent } from './can-login/can-login.component';
 import { CanMobileVerifyComponent } from './can-mobile-verify/can-mobile-verify.component';
 import { CanMyProfileComponent } from './can-my-profile/can-my-profile.component';
+import { CanRecentSearchComponent } from './can-recent-search/can-recent-search.component';
 import { CanRegistrationComponent } from './can-registration/can-registration.component';
 import { CanUpdateProfileComponent } from './can-update-profile/can-update-profile.component';
 import { CandidateDetailsComponent } from './candidate-details/candidate-details.component';
@@ -19,6 +20,7 @@ import { EmployerActionComponent } from './employer-action/employer-action.compo
 import { EmployerHomeComponent } from './employer-home/employer-home.component';
 import { EmployerLoginComponent } from './employer-login/employer-login.component';
 import { EmployerMyaccountComponent } from './employer-myaccount/employer-myaccount.component';
+import { EmployerRecentSearchComponent } from './employer-recent-search/employer-recent-search.component';
 import { ForgotPassOtpComponent } from './forgot-pass-otp/forgot-pass-otp.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { JobPostViewComponent } from './job-post-view/job-post-view.component';
@@ -53,6 +55,8 @@ const routes: Routes = [
   {path:"sendjob",component:SendJobComponent},
   {path:"forgotpassotp",component:ForgotPassOtpComponent},
   {path:"checkmail",component:CheckMailComponent},
+  {path:"employerrecentsearch",component:EmployerRecentSearchComponent},
+
 
 
 
@@ -68,6 +72,7 @@ const routes: Routes = [
   {path:"canintrested",component:CanIntrestedComponent},
   {path:"canhome",component:CanHomeComponent},
   {path:"canmyprofile",component:CanMyProfileComponent},
+  {path:"canrecentsearch",component:CanRecentSearchComponent},
 
   
 ];
