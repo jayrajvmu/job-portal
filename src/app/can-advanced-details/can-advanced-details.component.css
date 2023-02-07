@@ -1,0 +1,91 @@
+.register-content{
+    background-color: #fff;
+}
+.register-form{
+    min-width: 58%;
+    width: 540px;
+    padding-bottom: 10px;
+}
+.register-content-row{
+    background-color: #E7E9ED;
+    margin-top: 10px;
+
+}
+.hero-col{
+    padding: 0;
+}
+.custom-row {
+    margin-top: 0px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+}
+.card-job-content-heading{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+}
+
+
+
+.border-remove{
+    border:none;
+}
+
+
+
+
+.pre-next-page{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+    }
+    .pre-next-page img{
+        width: 20px;    
+        }
+            
+
+
+.heading-main-content button{
+    width: 70%;
+}
+
+
+.single-row label{
+    min-width: 50%;
+}
+
+.content-box{
+    justify-content: space-between;
+}
+
+
+.language-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.language-wrap{
+    align-items: flex-start;
+}
+
+.language-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lan-details span{
+padding: 0 10px;
+font-size: 10px;
+}
+.lan-details span img{
+    padding-right: 5px;
+    width: 16px;
+    }
+
+    .eduction-skills{
+        margin: 10px 0;
+        font-size: 24px;
+    
+        margin: 10px 0;
+    }

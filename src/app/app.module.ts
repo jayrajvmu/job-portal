@@ -37,6 +37,10 @@ import { CanHomeComponent } from './can-home/can-home.component';
 import { CanMyProfileComponent } from './can-my-profile/can-my-profile.component';
 import { CanRecentSearchComponent } from './can-recent-search/can-recent-search.component';
 import { EmployerRecentSearchComponent } from './employer-recent-search/employer-recent-search.component';
+import { UseExistingTemplateComponent } from './use-existing-template/use-existing-template.component';
+import { CanEducationalDetailsComponent } from './can-educational-details/can-educational-details.component';
+import { CanProfessionalDetailsComponent } from './can-professional-details/can-professional-details.component';
+import { CanAdvancedDetailsComponent } from './can-advanced-details/can-advanced-details.component';
 
 @NgModule({
   declarations: [
@@ -75,6 +79,10 @@ import { EmployerRecentSearchComponent } from './employer-recent-search/employer
     CanMyProfileComponent,
     CanRecentSearchComponent,
     EmployerRecentSearchComponent,
+    UseExistingTemplateComponent,
+    CanEducationalDetailsComponent,
+    CanProfessionalDetailsComponent,
+    CanAdvancedDetailsComponent,
     
   ],
   imports: [

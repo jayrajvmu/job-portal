@@ -41,21 +41,3 @@
 .single-row-final-btn{
     margin-top: 20px;
 }
-
-.education-row{
-    margin-top: 20px !important;
-    margin-bottom: 10px !important;
-}
-
-.education-h3{
-   margin: 0 !important;
-}
-
-.add-pan-btn{
-    display: flex;
-    justify-content: space-around
-}
-
-.education-wrap{
-    padding-bottom: 20px;
-}
