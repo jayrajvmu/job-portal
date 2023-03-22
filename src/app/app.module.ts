@@ -41,6 +41,7 @@ import { UseExistingTemplateComponent } from './use-existing-template/use-existi
 import { CanEducationalDetailsComponent } from './can-educational-details/can-educational-details.component';
 import { CanProfessionalDetailsComponent } from './can-professional-details/can-professional-details.component';
 import { CanAdvancedDetailsComponent } from './can-advanced-details/can-advanced-details.component';
+import { PagehomeComponent } from './pagehome/pagehome.component';
 
 @NgModule({
   declarations: [
@@ -83,6 +84,7 @@ import { CanAdvancedDetailsComponent } from './can-advanced-details/can-advanced
     CanEducationalDetailsComponent,
     CanProfessionalDetailsComponent,
     CanAdvancedDetailsComponent,
+    PagehomeComponent,
     
   ],
   imports: [

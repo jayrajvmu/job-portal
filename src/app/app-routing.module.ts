@@ -30,6 +30,7 @@ import { JobPostViewComponent } from './job-post-view/job-post-view.component';
 import { JobpostComponent } from './jobpost/jobpost.component';
 import { LoginComponent } from './login/login.component';
 import { NewPasswordComponent } from './new-password/new-password.component';
+import { PagehomeComponent } from './pagehome/pagehome.component';
 import { PlansComponent } from './plans/plans.component';
 import { RegisterComponent } from './register/register.component';
 import { SendJobComponent } from './send-job/send-job.component';
@@ -61,7 +62,7 @@ const routes: Routes = [
   {path:"checkmail",component:CheckMailComponent},
   {path:"employerrecentsearch",component:EmployerRecentSearchComponent},
   {path:"useexistingtemplate",component:UseExistingTemplateComponent},
-
+  {path:"pagehome",component:PagehomeComponent},
 
 
 
